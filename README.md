@@ -1,4 +1,4 @@
-# React + TypeScript Post Management Application
+# React + TypeScriptCRUD-Operation---DINAMO Application
 
 This project is a simple web application built with **React** and **TypeScript**. It demonstrates fetching, displaying, adding, editing, and deleting posts using the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/) and utilizes **Ant Design** for the UI.
 
@@ -36,5 +36,43 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/AhmedMohamed17/CRUD-Operation---DINAMO.git
 cd CRUD-Operation---DINAMO
+```
+### 2.  Install Dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+### 3.  Start the Development Server:
+
+```bash
+npm start
+# or
+yarn start
+```
+The application will be available at http://localhost:3000.
+
+## **Assumptions Made**
+
+1- The JSONPlaceholder API is stable and accessible.
+2- Simulated POST, PUT, and DELETE requests return expected results without persisting data.
+
+## **Challenges Faced**
+
+1- Managing API errors gracefully for a simulated backend.
+2- Adding a loader while ensuring a smooth user experience.
+
+## **Time Spent**
+
+Approximate time spent on this assignment: 8-10 hours
+
+## For any questions, feel free to contact me at:
+Email:ahmedmohamed7sayed@gmail.com
+
+
+
+
+
+
 
 
