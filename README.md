@@ -27,7 +27,9 @@ This project is a simple web application built with **React** and **TypeScript**
 - **CSS** for custom styling
 
 ---
-
+## **Live link** :
+https://crud-operation-dinamo.vercel.app/
+---
 ## **How to Run the Application**
 
 Follow these steps to run the project locally:
