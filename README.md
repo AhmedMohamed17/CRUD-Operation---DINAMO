@@ -1,50 +1,40 @@
-# React + TypeScript + Vite
+# React + TypeScript Post Management Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple web application built with **React** and **TypeScript**. It demonstrates fetching, displaying, adding, editing, and deleting posts using the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/) and utilizes **Ant Design** for the UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Features**
+1. **Fetch and Display Data**  
+   Posts are fetched from `/posts` endpoint and displayed in a table.
+2. **Add New Post**  
+   Users can add new posts with a form (fields: Title and Body).
+3. **Edit Existing Post**  
+   Each post can be updated through a pre-filled form.
+4. **Delete Post**  
+   Users can delete posts directly from the table.
+5. **Error Handling**  
+   API errors are handled gracefully using notifications.
+6. **Loader**  
+   A loader displays during data fetching for a better user experience.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## **Tech Stack**
+- **React** with **TypeScript**
+- **Ant Design** for UI components
+- **Axios** for API requests
+- **CSS** for custom styling
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## **How to Run the Application**
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Follow these steps to run the project locally:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### 1. Clone the Repository:
+```bash
+git clone https://github.com/AhmedMohamed17/CRUD-Operation---DINAMO.git
+cd CRUD-Operation---DINAMO
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
